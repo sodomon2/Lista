@@ -3,18 +3,17 @@
  @package   LDRPUI
  @filename  init.lua
  @version   1.0
- @autor     Diaz Urbaneja Victor Diego Alejandro <sodomon2@gamil.com>
+ @autor     Diaz Urbaneja Victor Diego Alejandro <sodomon2@gmail.com>
  @date      19.06.2018 16:50:56 -04
 ]]--
 
 -- declaro mis variables globales
 
-require('lib.middleclass')      -- la libreria middleclass me da soporte a OOP
+require('lib.middleclass')          -- la libreria middleclass me da soporte a OOP
 
 lgi     = require('lgi')            -- requiero esta libreria para que me permitira usar GTK
-GObject = lgi.GObject           -- parte de lgi
-GLib    = lgi.GLib                 -- para el treeview
-
+GObject = lgi.GObject               -- parte de lgi
+GLib    = lgi.GLib                  -- para el treeview
 Gtk     = lgi.require('Gtk', '3.0') -- el objeto GTK
 
 assert  = lgi.assert

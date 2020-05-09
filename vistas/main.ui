@@ -516,7 +516,7 @@ necessary.  Here is a sample; alter the names:
 That's all there is to it!
 </property>
     <property name="authors">Díaz Urbaneja Víctor Diego Alejandro(Sodomon) &lt;sodomon@openmailbox.org&gt;</property>
-    <property name="logo">../../Vdesk-demo/img/Vdesk-icon.png</property>
+    <property name="logo">Vdesk.png</property>
     <child type="titlebar">
       <object class="GtkHeaderBar">
         <property name="visible">True</property>
@@ -568,7 +568,7 @@ That's all there is to it!
               <object class="GtkImage">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="pixbuf">../../../Videos/images/Vdesk-icon.png</property>
+                <property name="pixbuf">Vdesk-icon.png</property>
               </object>
             </child>
           </object>
